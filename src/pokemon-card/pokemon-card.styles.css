@@ -1,0 +1,28 @@
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  align-items: center;
+}
+
+.pokemon-container:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-img {
+  width: 180px;
+  height: 180px;
+}
+
+.pokemon-info {
+  text-transform: capitalize;
+  text-align: center;
+  color: blueviolet;
+}
